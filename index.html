@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../Gym/fotos/icono.png">
+    <title>Powerlifting - CAC 4.0</title>
+</head>
+<body>
+    <section class="header"> 
+            <nav>
+                <a href="index.html"><img src="fotos/logo.png"></a>
+                <div class="header_links" id="nav_links">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>   
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="exercises.html">EXERCISES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+    </section>
+    <section class="main">
+        <div class="main_text">
+            <h1>El Powerlifting en la Argentina</h1>
+            <p>El Powerlifting es un deporte de fuerza máxima que se practica con barras y discos de hierro en el que cada levantador sale a tarima, completamente solo y realiza tres movimientos: Sentadilla (Squat), Press de banca (Bench press) y Peso muerto (Deadlift) para establecer, en este orden y mediante 3 intentos en cada movimiento, una repetición máxima (RM), mientras 3 jueces comprueban que se cumpla la normativa.
+            </p>
+            <a href="https://powerliftingunidosdeargentina.com.ar/" target="_blank" class="main_btn">Click para saber más</a>
+        </div>
+    </section>
+<!--JavaScript sectión-->
+<script>
+    
+    var nav_links = document.getElementById("nav_links");
+    function showmenu(){
+        nav_links.style.right = "0";
+    }
+    function hidemenu(){
+        nav_links.style.right = "-300px";
+    }
+
+</script>
+</body>
+</html>
